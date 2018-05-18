@@ -21,7 +21,7 @@ namespace Clases_C_Sharp.Models
         private string segundoNombre;
         public string SegundoNombre
         {
-            get { return segundoNombre; }
+            get { return segundoNombre.ToUpper(); }
             set { segundoNombre = value; }
         }
         #endregion
